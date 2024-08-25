@@ -1,0 +1,60 @@
+/* ProfileView.css */
+
+.profile-view-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-view-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.username {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+}
+
+.bio {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .profile-view-container {
+    padding: 15px;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .username {
+    font-size: 20px;
+  }
+
+  .bio {
+    font-size: 14px;
+  }
+}

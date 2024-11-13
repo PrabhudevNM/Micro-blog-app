@@ -28,7 +28,7 @@ const Home = () => {
           <div key={post._id} className="post">
             {/* <h2>{post.title}</h2> */}
             <p>{post.body}</p>
-            {post.file && <img src={`http://localhost:8080${post.file}`} alt="post"/>} {/* Adjust based on your backend response */}
+            {post.file && <img src={`https://micro-blog-app-3lmi.onrender.com${post.file}`} alt="post"/>} {/* Adjust based on your backend response */}
             <p>likes-{post.likes}</p>
             <p>comments-{post.comments}</p>
           </div>

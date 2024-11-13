@@ -34,7 +34,7 @@ export default function ProfileView() {
     <div className="profile-view-container">
       <div className="profile-view-card">
         <img
-           src={`http://localhost:8080${profile.file}`}  // Assuming the backend returns the image URL
+           src={`https://micro-blog-app-3lmi.onrender.com${profile.file}`}  // Assuming the backend returns the image URL
           alt={`${profile.username}'s profile`}
           className="profile-pic"
         />

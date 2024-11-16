@@ -137,7 +137,7 @@ const Profile = () => {
                 <Form.Control
                   type="text"
                   placeholder="Enter You Bio"
-                  name="Bio"
+                  name="username"
                   value={formData.username}
                   onChange={handleInputChange}
                   required

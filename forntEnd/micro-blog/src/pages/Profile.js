@@ -133,10 +133,10 @@ const Profile = () => {
           <Card.Body>
             <Form onSubmit={saveProfile}>
               <Form.Group controlId="username" className="mb-3">
-                <Form.Label>Enter Bio</Form.Label>
+                <Form.Label>Enter Your Bio</Form.Label>
                 <Form.Control
                   type="text"
-                  placeholder="Enter You Bio"
+                  placeholder="Enter Your Bio"
                   name="username"
                   value={formData.username}
                   onChange={handleInputChange}
